@@ -56,3 +56,6 @@ Install the required packages using:
 
 ```bash
 pip install -r requirements.txt
+
+## Typical installation time:
+Installing the required Python packages listed in requirements.txt takes approximately 2–5 minutes on a standard desktop computer (Intel i5 CPU, 8GB RAM, Windows/macOS/Linux, Python 3.9).
