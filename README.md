@@ -34,7 +34,7 @@ We select **New York City** as a representative case study.
 
 - We provide a sample dataset (~3,000 rows) for demonstration purposes.
 - All final results (community detection, mapping, and analysis) are based on the **full mobility dataset** of NYC.
-
+- Running the complete demo pipeline takes approximately 10 minutes on a standard desktop computer (Intel i5 CPU, 8GB RAM, no GPU).
 ---
 
 ## 📁 Repository Structure
