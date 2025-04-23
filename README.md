@@ -15,13 +15,13 @@ We aim to detect and analyze community structures embedded in human mobility pat
 This codebase includes four main components:
 
 1. **Data Preprocessing**  
-   Prepares raw mobility network data for analysis.
+   Prepares raw mobility network data for analysis, output the A matrix and X matrix required by GCN.
 
 2. **Community Detection**  
    Applies overlapping community detection algorithms to identify mobility-based communities.
 
 3. **Spatial Mapping**  
-   Maps community labels to geographic units (CBG level) for spatial visualization.
+   Maps community labels to geographic units (CBG level).
 
 4. **Socioeconomic Analysis**  
    Uses external information (e.g., POIs) to interpret the detected communities from a socioeconomic perspective.
@@ -41,12 +41,12 @@ We select **New York City** as a representative case study.
 
 | File | Description |
 |------|-------------|
-| `NCS_GUCD_data_preprocessing.ipynb` | Data cleaning and formatting |
-| `NCS_GUCD_community_detection.ipynb` | Community detection algorithm |
+| `NCS_GUCD_data_preprocessing.ipynb` | Output A and X matrix |
+| `NCS_GUCD_community_detection.ipynb` | Community detection |
 | `NCS_GUCD_mapping_to_spatial.ipynb` | Map community results to CBGs |
 | `NCS_GUCD_POI_analysis.ipynb` | Analyze community characteristics using POIs |
 | `workflow.png` | Workflow illustration |
-| `demo_data/` | Sample input mobility data (~3K rows) |
+| `demo_data/` | Sample input and all necessary outputs to reproduce the results |
 
 ---
 
